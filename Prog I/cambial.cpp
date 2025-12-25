@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//Crie um programa em C que permita fazer a convers„o cambial entre Reais e DÛlares. Considere
-//como taxa de c‚mbio US$1,0 = R$5,30. Leia um valor em Reais e mostre o correspondente em
-//DÛlares.
+//Crie um programa em C que permita fazer a convers√£o cambial entre Reais e D√≥lares. Considere
+//como taxa de c√¢mbio US$1,0 = R$5,30. Leia um valor em Reais e mostre o correspondente em
+//D√≥lares.
 
 int main(){
 	
-float dolar, real, repete, sair;
+float dolar, real;
 
 printf("\tCONVERSAO CAMBIAL:");
 
@@ -19,3 +19,4 @@ dolar = real / 5.3 ;
 printf("\nValor em Dolares: US$%.2f", dolar);
 
 }
+
